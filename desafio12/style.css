@@ -37,19 +37,20 @@ main{
     font-family: 'Sriracha';
 }
 
-main p{
+main div{
     font-size: 1.3em;
-    padding: 10px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
-main div#q1{
+main div.normal{
     background-color: white;
-    padding: 10px 0px 10px 0px;
 }
 
 main div#q2{
     color: white;
-    padding: 50px 0px 50px;
 }
 
 main div#q2 p{
@@ -57,25 +58,14 @@ main div#q2 p{
     background-color: #0000003f;
 }
 
-main div#q3{
-    background-color: white;
-    padding: 10px 0px 10px 0px;
-}
-
 main div#q4{
     background: black url(imagens/background002.jpg) center center /cover no-repeat fixed;
     color: white;
-    padding: 50px 0px 50px;
 }
 
 main div#q4 p{
     width: 270px;
     background-color: #0000003f;
-}
-
-main div#q5{
-    background-color: white;
-    padding: 10px 0px 10px 0px;
 }
 
 footer{
