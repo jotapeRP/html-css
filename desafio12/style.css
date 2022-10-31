@@ -4,7 +4,7 @@
 
 body{
     margin: 0px;
-    background: black url(imagens/background001.jpg) center center /cover  no-repeat fixed;
+    background: black url(imagens/background001.jpg) right center /cover  no-repeat fixed;
 }
 
 header{
@@ -16,7 +16,7 @@ header{
 }
 
 header h1{
-    font-size: 3em;
+    font-size: 10vh;
 }
 
 header p{
@@ -38,34 +38,36 @@ main{
 }
 
 main div{
-    font-size: 1.3em;
+    font-size: 3.5vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
 }
 
+main div p{
+    padding-bottom: 2em;
+}
+
 main div.normal{
     background-color: white;
 }
 
-main div#q2{
+main div.imagem{
+    box-shadow: inset 0px 6px 13px 0px #0000008a;
+}
+
+main div.imagem p{
     color: white;
-}
-
-main div#q2 p{
-    width: 270px;
+    display: inline-block;
     background-color: #0000003f;
+    padding: 10px;
+    text-shadow: 2px 2px 2px #00000067;
+    border-radius: 10px;
 }
 
-main div#q4{
+main div#q1{
     background: black url(imagens/background002.jpg) center center /cover no-repeat fixed;
-    color: white;
-}
-
-main div#q4 p{
-    width: 270px;
-    background-color: #0000003f;
 }
 
 footer{
