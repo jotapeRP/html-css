@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .amarelo{
+            background-color: lightgray;
+        }
+
+        .vermelho{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>20</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>36</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Mecânico</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
