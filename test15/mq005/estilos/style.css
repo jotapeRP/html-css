@@ -25,9 +25,24 @@ span#burguer{
     color: white;
     text-align: center;
     padding: 10px;
+    display: block;
 }
 
 span#burguer:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+span#fechar{
+    background-color: #363636;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+span#fechar:hover{
     background-color: lightgray;
     color: black;
 }
