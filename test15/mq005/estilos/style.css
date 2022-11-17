@@ -19,12 +19,26 @@ header h1{
     padding: 10px;
 }
 
-menu{
+span#burguer{
+    background-color: #363636;
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burguer:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+menu{
+    display: none;
 }
 
 menu ul{
     list-style-type: none;
+    margin-bottom: 10px;
 }
 
 menu ul li a{
@@ -34,7 +48,7 @@ menu ul li a{
     background-color: #5a5a5a;
     color: white;
     font-weight: bolder;
-    border: 1px solid gray;
+    border: 2px solid gray;
     text-align: center;
 }
 
@@ -43,9 +57,8 @@ menu ul li a:hover{
 }
 
 main{
-    margin-top: 20px;
     background-color: white;
-    width: 80vw;
+    width: 90vw;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -53,6 +66,7 @@ main{
 
 main h2{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 main p{
